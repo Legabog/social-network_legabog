@@ -1,0 +1,38 @@
+.nav {
+  grid-area: n;
+  background-color: #e9ecf1;
+  padding: 20px;
+  display: block;
+  width: 170px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.list {
+  margin-top: 20px;
+  font-size: 120%;
+}
+
+.list ul {
+  margin-left: -50px;
+}
+
+.list li{
+  padding: 3px;
+}
+
+.nav span {
+  margin-left: 10px;
+  font-size: 150%;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+}
+
+.nav li:hover {
+  background-color: #d9d9df;
+  border-radius: 10px;
+
+}
+

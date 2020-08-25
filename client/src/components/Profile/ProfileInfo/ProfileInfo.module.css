@@ -1,0 +1,319 @@
+.descriptionBlock {
+    display: inline-block;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.descriptionBlock ul {
+    display: inline;
+}
+
+.descriptionBlock li {
+    list-style: none;
+}
+
+.descriptionBlock li::before {
+    content: "\2022";
+    color: #224b7a; 
+    font-weight: bold;
+    display: inline-block; 
+    width: 10px; 
+}
+
+.descriptionBlock li{
+    padding-left: -10px;
+    color: #4A76A8
+}
+
+
+.descriptionBlock h2 {
+    color: #4A76A8;
+    max-width: 400px;
+}
+
+.descriptionBlock h3 {
+    color: #4A76A8;
+    margin-top: -1px;
+}
+
+.headerinfo {
+    margin-top: -20px;
+    display: flex;
+}
+
+.headerinfo svg {
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.headerinfo svg:hover {
+    cursor: pointer;
+    filter: opacity(50%);
+}
+
+
+
+.profile {
+    display: flex;
+}
+
+.allProfile {
+    height: auto;    
+}
+
+.avatarFrame {
+    display: block;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.avatar {
+    height: fit-content;
+}
+
+.avatar img{
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+
+
+.contacts {
+    list-style: none;
+    font-size: 120%;
+    margin-top: 4px;
+}
+
+.profileStatus {
+    padding: 2px;
+}
+
+.profileStatus svg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -4px;
+    margin-right: 5px;
+}
+
+
+.profileStatus span {
+    width: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #4A76A8
+}
+
+.profileStatus span:hover {
+    width: fit-content;
+    cursor: pointer;
+    background-color: #d9d9df;
+    border-radius: 5px;
+}
+
+.profileStatus input {
+    font-size: 110%;
+    width: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #4A76A8;
+    border: #fff;
+}
+
+
+.info {
+    margin-left: 10px;
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+.info p {
+    margin-top: -5px;
+    color: #939393;
+}
+
+.prosts {
+    margin-bottom: 30px;
+}
+
+.savePhoto img {
+    position: relative;
+}
+
+.savePhoto img:hover {
+    filter: brightness(0.95);
+    cursor: pointer;
+}
+
+.savePhoto input {
+    display: none;
+}
+
+
+.downloadIcon {
+    width: fit-content;
+}
+
+.downloadIcon svg {
+    position: relative;
+    top: -90px;
+    left: 260px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    opacity: 0;
+}
+
+.downloadIcon svg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.savePhoto {
+    height: 340px;
+}
+
+.savePhoto:hover .downloadIcon svg {
+    opacity: 1;
+}
+
+.follow button{
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4A76A8;
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.follow button:focus {
+    outline: none;
+}
+
+.follow button:hover {
+    cursor: pointer;
+    filter: opacity(90%);
+}
+
+.follow button:disabled {
+    background: #ccc;
+    color: #000;
+    cursor: not-allowed;
+}
+  
+.unfollow button{
+    width: 90px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+    background-color: #F62A54;
+}
+
+.unfollow button:focus {
+    outline: none;
+}
+
+.unfollow button:hover {
+    cursor: pointer;
+    filter: opacity(90%);
+}
+
+.unfollow button:disabled {
+    background: #ccc;
+    color: #000;
+    cursor: not-allowed;
+}
+
+.buttonWriteMessage button{
+    margin-top: 10px;
+    width: 250px;
+    height: 45px;
+    margin-left: 20px;
+    font-size: 130%;
+    background: #4A76A8;
+    border: #4A76A8;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.buttonWriteMessage button:hover{
+    cursor: pointer;
+    filter: brightness(0.95);
+}
+
+.buttonSettings button {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    font-size: 130%;
+    background: #e5ebf1;
+    border: #e5ebf1;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.buttonSettings button:hover {
+    cursor: pointer;
+    filter: brightness(0.95);
+}
+
+.buttonSettings svg {
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+}
+
+.frontButtons {
+    width: 340px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+}
+
+.descriptionBlock hr {
+    height: 0;
+	border: none;
+	border-top: 1px solid rgb(240, 236, 236);
+}
+
+.Contacts svg {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -5px;
+}
+
+.Contacts{
+    margin-top: -20px;
+}
+
+.Contacts ul {
+    margin-left: -40px;
+    
+}
+
+.Contacts li::before  {
+    content: none;
+}

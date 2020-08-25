@@ -1,0 +1,27 @@
+.notify {
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.notify img {
+    width: 35px;
+    margin-left: 7.5px;
+    margin-top: 12px;
+}
+
+.notify:hover {
+    cursor: pointer;
+    background-color: #3d6898;
+}
+
+.notify img:hover {
+    cursor: pointer;
+}
+
+.notify svg {
+    width: 35px;
+    height: 35px;
+    margin-left: 7.5px;
+    margin-top: 12px;
+}

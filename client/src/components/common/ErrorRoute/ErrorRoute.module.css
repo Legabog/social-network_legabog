@@ -1,0 +1,56 @@
+.error {
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 980px;
+    /* height: 200px; */
+    margin-bottom: 30px;
+    background-color: #fff;
+  }
+  
+  .error h1 {
+   color: #F62A54;
+   text-align: center;
+  }
+
+  .error svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .errorIcon {
+    width: fit-content;
+    margin-left: 200px;
+
+    margin-bottom: -150px;
+  }
+  
+  
+  .errorDescription hr{
+    margin-top: -50px;
+    height: 0;
+	  border: none;
+  	border-top: 1px solid rgb(202, 202, 202);
+    
+  }
+  
+  .errorNumber h1 {
+    color: #F62A54;
+    font-size: 800%;
+    margin-top: -50px;
+  }
+  
+  .errorDescription h2 {
+    font-size: 400%;
+  }
+  
+  .error h2 {
+    color: #F62A54;
+    text-align: center;
+   }
+  
+  
+   .lastBlock {
+    height: 60px;
+  }
+  

@@ -1,0 +1,9 @@
+.postsBlock {
+    display: inline-block;
+    width: 340px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
