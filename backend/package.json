@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "server": "nodemon backend.js",
-    "client": "npm run start --prefix ../client/social-network-legabog",
+    "client": "npm run start --prefix ../client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "OLEG DOSOV",
