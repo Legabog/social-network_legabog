@@ -1,1 +1,1 @@
-# Optimized version
+# ⚡ Optimized version
