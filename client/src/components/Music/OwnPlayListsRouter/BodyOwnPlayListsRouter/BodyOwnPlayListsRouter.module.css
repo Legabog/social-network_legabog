@@ -1,0 +1,78 @@
+.bodyOwnPlayListsRouter {
+    display:flex;
+    word-break: break-all;
+}
+
+.bodyOwnPlayListsRouter a {
+    text-decoration: none;
+}
+
+.playListImage {
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.playListImage img {
+    width: 300px;
+    height: 300px;
+}
+
+.playListTitle {
+    display: block;
+    width: 620px;
+    margin-left: 30px;
+}
+
+.playListTitle h1 {
+    color: #4A76A8;
+    width: 580px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: -5px;
+}
+
+.playListTitle h2 {
+    width: 580px;
+    margin-top: -5px;
+    color: rgb(163, 163, 163);
+}
+
+.playListTitle br {
+    margin: 0;
+}
+
+.playListTracks {
+    margin-top: 30px;
+}
+
+.playListTracks h2 {
+    color: #4A76A8;
+}
+
+.playListTracks p {
+    margin-top: 0px;
+}
+
+.playListTracks hr {
+    margin: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid rgb(240, 236, 236);
+}
+
+.lastBlock {
+    height: 30px;
+}
+
+.delete svg {
+    width: 35px;
+    height: 35px;
+}
+
+.delete svg{
+    margin-top: 270px;
+    margin-left: -335px;
+
+}
+

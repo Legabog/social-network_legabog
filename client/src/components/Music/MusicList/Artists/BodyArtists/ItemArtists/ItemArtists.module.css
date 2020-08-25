@@ -1,0 +1,34 @@
+.itemArtists {
+    height: 60px;
+    display: flex;
+  }
+
+  
+  .itemArtists:hover {
+    cursor: pointer;
+    width: 980px;
+    background-color: rgb(214, 233, 255);
+  }
+  
+  .itemArtists svg {
+    margin-top: 15px;
+    margin-left: -10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .itemArtists:hover svg {
+    margin-left: -40px;
+  }
+
+  .itemArtists h2 {
+    margin-left: 10px;
+    margin-top: 13px;
+    min-width: 930px;
+    color: #4A76A8;
+  }
+  
+  .itemArtists:hover h2 {
+    margin-left: 40px;
+    color: #F62A54;
+  }

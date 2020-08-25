@@ -1,0 +1,33 @@
+.bodyMusicPlayer {
+    display:flex;
+  }
+
+
+  .trackImage {
+      margin-left: 30px;
+      margin-bottom: 30px;
+  }
+  .trackImage img {
+    width: 300px;
+    height: 300px;
+}
+
+.trackArtist {
+    width: 620px;
+    margin-left: 30px;
+}
+
+.trackArtist h1, h2, h6{
+    color: #4A76A8;
+}
+
+.trackArtist h2 {
+    color: rgb(163, 163, 163);
+}
+
+.trackArtist br {
+    margin: 0;
+}
+
+
+  
