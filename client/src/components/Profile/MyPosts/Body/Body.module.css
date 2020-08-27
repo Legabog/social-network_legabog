@@ -35,13 +35,14 @@
 }
 
 .inputMessage textarea {
-    width: 302px;
+    width: 292px;
     font-size: 200%;
     border-radius: 10px;
     background-color: #fff;
     color: #4A76A8;
-    border: #4A76A8;
+    border: 3px solid #4A76A8;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .inputMessage textarea::-webkit-input-placeholder { 

@@ -1,4 +1,6 @@
 .error {
+    background: url(https://i.imgur.com/CZdBKjO.gif) no-repeat;
+    background-size: cover;
     border-radius: 20px;
     margin-top: 30px;
     margin-left: 30px;
@@ -9,22 +11,9 @@
   }
   
   .error h1 {
-   color: #F62A54;
+   color: #fff;
    text-align: center;
-  }
-
-  .error svg {
-    width: 100px;
-    height: 100px;
-  }
-
-  .errorIcon {
-    width: fit-content;
-    margin-left: 200px;
-
-    margin-bottom: -150px;
-  }
-  
+  } 
   
   .errorDescription hr{
     margin-top: -50px;
@@ -35,7 +24,7 @@
   }
   
   .errorNumber h1 {
-    color: #F62A54;
+    color: #fff;
     font-size: 800%;
     margin-top: -50px;
   }
@@ -45,7 +34,7 @@
   }
   
   .error h2 {
-    color: #F62A54;
+    color: #fff;
     text-align: center;
    }
   
@@ -54,3 +43,6 @@
     height: 60px;
   }
   
+.infinity {
+    
+}

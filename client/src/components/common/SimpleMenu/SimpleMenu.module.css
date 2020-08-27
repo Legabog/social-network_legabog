@@ -37,8 +37,9 @@
 }
 
 .loginblock p {
+  font-size: 18px;
   margin-left: 15px;
-  margin-top: 35px;
+  margin-top: 31px;
 }
 
 .avatar img {
@@ -52,8 +53,23 @@
   display: block;
 }
 
-.signedInfo p {
-  margin-left: 40px;
+.signedText {
+  text-align: center;
+}
+
+.signedText p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #4a76a8;
+}
+
+.signedLogin {
+  text-align: center;
+}
+
+.signedLogin p {
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: #4a76a8;
 }
 
@@ -71,8 +87,9 @@
 }
 
 .linkToProfile h3 {
+  text-align: center;
   margin-top: 3px;
-  margin-left: 100px;
+  margin-left: 20px;
   color: #4a76a8;
 }
 
@@ -91,7 +108,7 @@
 
 .linkToMusic h3 {
   margin-top: 3px;
-  margin-left: 100px;
+  margin-left: 20px;
   color: #4a76a8;
 }
 
@@ -110,7 +127,7 @@
 
 .linkToSettings h3 {
   margin-top: 3px;
-  margin-left: 100px;
+  margin-left: 20px;
   color: #4a76a8;
 }
 
@@ -129,7 +146,7 @@
 
 .linkToLogout h3 {
   margin-top: 3px;
-  margin-left: 100px;
+  margin-left: 20px;
   color: #4a76a8;
 }
 

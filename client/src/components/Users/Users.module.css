@@ -1,109 +1,21 @@
-.userphoto {
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    padding: 10px;
-    margin-left: 30px;
-}
-
-.selectedPage {
-    font-weight: bold;
-}
-
-.followbutton {
-  display: inline-block;
-  padding: 10px 10px;
-  border-radius: 4px;
-  border: none;
-  margin-left: 75px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 12px;  
-  color: #fff;
-  background-color: #4A76A8;;  
-  cursor: pointer;
-}
-
-.followbutton:focus {
-  outline: none;
-}
-
-.followbutton:active {
-  box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .4);
-}
-
-.followbutton:disabled {
-  background: #ccc;
-  color: #000;
-  cursor: not-allowed;
-}
-
-.unfollowbutton {
-  display: inline-block;
-  padding: 10px 10px;
-  border-radius: 4px;
-  border: none;
-  margin-left: 75px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 12px;  
-  cursor: pointer;
-  color: #fff;
-  background-color: #F62A54;  
-}
-
-.unfollowbutton:focus {
-  outline: none;
-}
-
-.unfollowbutton:active {
-  box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .4);
-}
-
-.unfollowbutton:disabled {
-  background: #ccc;
-  color: #000;
-  cursor: not-allowed;
-}
-
-.shortinfo {
+.container {
   display: flex;
+  margin-left: 110px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
-.shortinfo span {
-  margin-top: -25px;
-}
-
-.usercard {
-  padding: 10px;
-  display: block;
-  border-radius: 10px;
-  width: 960px;
-  background-color: #fff;
-  margin: 10px;  
-  
-}
-
-.usercard a {
+.container a{
   text-decoration: none;
-}
-
-.usercard h4 {
-  font-size: 150%;
-  color: #4A76A8
-}
-
-.usercard p {
-  color: #4A76A8;
-  font-size: 130%;
 }
 
 .userslider {
   padding: 10px;
-  margin-left: 380px;
+  margin-left: 350px;
 }
 
 .root button {
+  font-size: 18px;
   color: #4A76A8;
 }
 
@@ -115,21 +27,190 @@
   outline: none;
 }
 
-.rootdiv {
+.card {
   display: block;
-}
-
-.cardsdiv {
-  margin-left: 20px;
-  width: 990px;
-  padding: 10px;
+  height: 320px;
+  width: 320px;
   background-color: #fff;
-  border-radius: 30px;
-  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
 }
 
-.hrline {
-  height: 0;
-	border: none;
-	border-top: 1px solid rgb(202, 202, 202);
+.card:not(:first-child) {
+    margin-left: -50px;
 }
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.userphoto {
+  position: absolute;
+  top: -60px;
+  left: 115px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  box-shadow: 0px 5px 50px 0px #4A76A8, 0px 0px 0px 3px #4A76A8;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  color: #4A76A8;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title:hover {
+  filter: opacity(80%)
+}
+
+.status {
+  text-align: center;
+  margin-top: -15px;
+  font-size: 18px;
+  color: #4A76A8;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profilecardsocial {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0px 7px 10px #4A76A8;
+  position: relative;
+  font-size: 21px;
+  flex-shrink: 0;
+  transition: all .3s;
+}
+
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+.buttons {
+  display: flex;
+
+}
+
+.message {
+  margin-top: 40px;
+  margin-left: 20px;
+  background: #4A76A8;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  width: 150px;
+  border-radius: 4px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transition: all .3s;
+}
+
+.message:hover {
+  box-shadow: 0px 7px 30px #4A76A8;
+  transform: translateY(-10px)
+}
+
+.follow {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #4A76A8;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  width: 150px;
+  border-radius: 4px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transition: all .3s;
+}
+
+.follow:disabled {
+  background: #ccc;
+  color: #fff;
+  box-shadow: 0px 7px 30px #ccc;
+  cursor: not-allowed;
+}
+
+.follow:hover {
+  box-shadow: 0px 7px 30px #4A76A8;
+  transform: translateY(-10px)
+}
+
+.unfollow {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #F62A54;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  width: 150px;
+  border-radius: 4px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transition: all .3s;
+}
+
+.unfollow:disabled {
+  background: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+  box-shadow: 0px 7px 30px #ccc;
+}
+
+.unfollow:hover {
+  box-shadow: 0px 7px 30px #F62A54;
+  transform: translateY(-10px)
+}
+
+
+

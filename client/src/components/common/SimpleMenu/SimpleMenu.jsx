@@ -48,13 +48,18 @@ export const SimpleMenu = (props) => {
         keepMounted
         open={Boolean(anchorEl)}
         onClose={handleClose}
-        style={{ width: "260px" }}
+        style={{ width: "200px" }}
       >
         <div className={classes.menuHeader}>
           <div className={classes.signedInfo}>
-            <p>
-              Signed in as <strong>{props.login}</strong>
-            </p>
+            <div className={classes.signedText}>
+              <p>Signed in as:</p>
+            </div>
+            <div className={classes.signedLogin}>
+              <p>
+                <strong>{props.login}</strong>
+              </p>
+            </div>
           </div>
           <hr />
         </div>
